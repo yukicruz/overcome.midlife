@@ -1,0 +1,22 @@
+title: My Awesome Site
+description: >-
+  Welcome to my awesome site powered by Jekyll and hosted on GitHub Pages.
+baseurl: "/overcome.midlife" # the subpath of your site, e.g. /blog
+url: "https://yukicruz.github.io/" # the base hostname & protocol for your site
+theme: minima
+
+# Build settings
+markdown: kramdown
+
+# Navigation links
+nav_links:
+  - name: "Home"
+    link: "/"
+  - name: "About"
+    link: "/about/"
+  - name: "Key Life Domains"
+    link: "/key-life-domains/"
+  - name: "Core Values"
+    link: "/core-values/"
+  - name: "Contact"
+    link: "/contact/"
