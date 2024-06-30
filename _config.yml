@@ -1,6 +1,7 @@
-title: Overcome Midlife
-description: >-
+# title: Overcome Midlife
+# description: >-
   Welcome to my awesome site powered by Jekyll and hosted on GitHub Pages.
+
 baseurl: "/overcome.midlife" # the subpath of your site, e.g. /blog
 url: "https://yukicruz.github.io/" # the base hostname & protocol for your site
 theme: minima
