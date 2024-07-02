@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <style>
+      body {
+        display: flex;
+      }
+      .sidebar {
+        width: 200px;
+        background-color: #f4f4f4;
+        padding: 10px;
+      }
+      .sidebar button {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        text-align: left;
+        cursor: pointer;
+      }
+      .sidebar button:hover {
+        background-color: #45a049;
+      }
+      .content {
+        flex: 1;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <button>Day 1</button>
+      <button>Day 2</button>
+      <button>Day 3</button>
+      <button>Day 4</button>
+      <button>Day 5</button>
+      <button>Day 6</button>
+      <button>Day 7</button>
+      <button>Day 8</button>
+      <button>Day 9</button>
+      <button>Day 10</button>
+      <button>Day 11</button>
+      <button>Day 12</button>
+      <button>Day 13</button>
+      <button>Day 14</button>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+  </body>
+</html>
