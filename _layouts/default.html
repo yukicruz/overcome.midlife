@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'docs/assets/css/style.css' | relative_url }}">
     <style>
       body {
         display: flex;
         flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
       }
       header {
         background-color: #333;
