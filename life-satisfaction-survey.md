@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Life Satisfaction Survey
-permalink: /life-satisfaction-survey2/
+permalink: /life-satisfaction-survey/
 ---
 
 <h1>Life Satisfaction Survey</h1>
