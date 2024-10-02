@@ -7,6 +7,13 @@ permalink: /core-values/
 <div class="content">
     <h1>Core Values</h1>
     <p>Identify your core values by answering the questions below.</p>
+    <p>There will be three stages:
+        <ol>
+            <li>Select values that resonate with you.</li>
+            <li>Prioritize values.</li>
+            <li>See how your values are prioritized.</li>
+        </ol>
+    </p>
     
     <div id="progress">
       <div id="progress-bar"></div>
